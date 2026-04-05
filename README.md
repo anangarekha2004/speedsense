@@ -1,11 +1,29 @@
-<div align="center">
+# SpeedSense: Retro-Futurist Personal Finance Tracker
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+**SpeedSense** is a high-performance personal finance application built with **Kotlin** and **Jetpack Compose**. It features a unique "Glitch Art" aesthetic and is designed for the modern grid operator.
 
-  <h1>Built with AI Studio</h2>
+## Features
+- **Expense Tracking**: Log transactions with categories (Food, Transport, Bills, Shopping, Others).
+- **Dashboard**: Real-time monthly spending summary and recent transaction logs.
+- **Insights**: Visual data analysis using Vico charts to monitor spending patterns.
+- **Authentication**: Secure Email/Password login and registration via Firebase.
+- **Material 3 UI**: Modern, responsive design with custom retro-futurist themes.
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+## Tech Stack
+- **Language**: Kotlin
+- **UI Toolkit**: Jetpack Compose
+- **Architecture**: MVVM (Model-View-ViewModel)
+- **Database**: Firebase Firestore
+- **Auth**: Firebase Authentication
+- **Charts**: Vico Compose M3
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+## Project Structure
+- `app/src/main/java/com/speedsense/app/`
+  - `data/model/`: Data entities (Expense, Category).
+  - `ui/navigation/`: Navigation logic and screen definitions.
+  - `ui/screens/`: Individual screen implementations (Home, Add, Insights, Profile, Auth).
+  - `ui/theme/`: Custom Material 3 theme and typography.
+  - `MainActivity.kt`: Entry point of the application.
 
-</div>
+## Setup
+Refer to [ANDROID_SETUP.md](./ANDROID_SETUP.md) for detailed instructions on configuring Firebase and building the project.

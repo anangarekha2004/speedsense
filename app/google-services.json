@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1018146836861",
+    "project_id": "mindmatrix-project-490611",
+    "storage_bucket": "mindmatrix-project-490611.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1018146836861:android:placeholder",
+        "android_client_info": {
+          "package_name": "com.speedsense.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBy-O1Jkf5jAg4vzc-8315vog-0E_0PgcY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
